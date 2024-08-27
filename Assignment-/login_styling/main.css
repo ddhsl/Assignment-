@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color:#fff;
+}
+
+.container {
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    border: 1px solid#dbdbdb;
+    border-radius: 5px;
+    top: 30px;
+    left: 25px;
+    background-color: #fff;
+}
+
+p {
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    font-size: 12px;
+    line-height: 15.02px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+.login{
+    position: absolute;
+    width: 318px;
+    height: 40px;
+    top: 50px;
+    left: 16px;
+    background-color: #711bff;
+    border-radius: 4px;
+}
+
+.login > div {
+    position: absolute;
+    top: 14px;
+    left: 176px;
+    font-size: 12px;
+    line-height: 15.02px;
+    text-align: center;
+    color: #fff;
+    font-family: 'SpoqaHanSansNeo-Regular';
+}
+
+.weniv {
+    position:absolute;
+    width: 64px;
+    height: 18px;
+    top: 11px;
+    left: 108px;
+    z-index: 1;
+}
+
+.find > img , .join > img{
+    width: 16px;
+    height: 16px
+}
+
+
+.find, .join {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.find {
+    top: 106px;
+    left: 16px;
+}
+
+.find > a, .join > a {
+    line-height: 15.02px;
+    font-size: 12px;
+    font-family: 'SpoqaHanSansNeo-Regular';
+    color: #767676;
+    margin-left: 4px;
+}
+
+
+.join {
+    top: 106px;
+    left: 269px;
+}
+
+.line::after{
+    content: "|";
+    color: #767676;
+    margin-left: 4px;
+    
+}
+
