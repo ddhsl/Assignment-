@@ -1,0 +1,112 @@
+body {
+    background-color: #FFFAF0;
+    height: 1024px;
+}
+
+:root {
+    --main-color : #29363D;
+    --sub-color : #5A6A72;
+}
+
+header {
+    width: 1440px;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+header > h1 > a> img {
+    position: absolute;
+    width: 156px;
+    height: 75px;
+    top: 22px;
+    left: 108px;
+}
+
+.login {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 44px;
+    right: 169px;
+}
+
+header > a {
+    position: absolute;
+    top: 51.5px;
+    right: 128px;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-left: 4px;
+    color: var(--sub-color);
+}
+
+/*main*/
+
+main > img {
+    position: absolute;
+    width: 249.6px;
+    height: 120px;
+    top: 191px;
+    left: 595px;
+}
+
+main > h2 {
+    position: absolute;
+    top: 340px;
+    left: 678px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: var(--main-color);
+
+}
+
+form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    top: 409px;
+    left: 524px;
+}
+
+form > label {
+    color: var(--main-color);
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+form > input {
+    margin-bottom: 24px;
+    border-width: 0 0 1px;
+    width: 392px;
+    height: 48px;
+    border-radius: 4px 4px 0 0;
+}
+
+
+form > button {
+    width: 392px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: var(--main-color);
+    color: #F4F5F5;
+    line-height: 19.2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+footer > p {
+    position: absolute;
+    top: 802px;
+    left: 605px;
+    width: 231px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #677880;
+}
