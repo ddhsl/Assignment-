@@ -80,6 +80,7 @@ form > label {
 
 form > input {
     margin-bottom: 24px;
+    margin-top: 8px;
     border-width: 0 0 1px;
     width: 392px;
     height: 48px;
