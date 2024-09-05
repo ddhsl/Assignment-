@@ -95,11 +95,9 @@ p {
 .line::after{
     content: "|";
     color: #767676;
-    margin-left: 4px;
-    
+    margin-left: 4px;  
 }
 
 .line {
     padding-top: 1px;
 }
-
