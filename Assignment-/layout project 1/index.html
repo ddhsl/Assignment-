@@ -4,30 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>영화목록 페이지</title>
-    <style>
-        img {
-            width: 150px;
-        }
-        .star {
-            width: 20px;
-        }
-        .video {
-            width: 20px;
-        }
-        .sns {
-            width: 20px;
-        }
-        .sr-only {
-        position:absolute;
-        left:-9999px;
-        top:auto;
-        width:1px;
-        height:1px;
-        overflow:hidden;
-        }
-    </style>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="wrap">
     <header>
         <h1 class="sr-only">정글시네마</h1>
         <h2>정글 시네마 영화 목록</h2>
@@ -54,7 +35,7 @@
                     <article>
                         <h4 class="sr-only">영화 상세 정보</h4>
                             <a href="#">
-                                <img src="./src/영화목록페이지/포스터_위니브월드.png" alt="위니브월드 : 새로운시대">
+                                <img src="./img/포스터_위니브월드.png" alt="위니브월드 : 새로운시대">
                             </a>
                             <strong>위니브 월드 : 새로운 시대</strong>
                             <dl>
@@ -72,18 +53,18 @@
                                 </div>
                                 <div>
                                     <dt>평점</dt>
-                                    <dd><img class="star" src="./src/별점이미지.png" alt=""> 9.05</dd>
+                                    <dd><img class="star" src="./img/별점이미지.png" alt=""> 9.05</dd>
                                 </div>
                             </dl>
                     </article>
                     <a href="#">예매하기</a>
-                    <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                    <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                 </li>
                 <li>
                     <article>
                         <h4 class="sr-only">영화 상세 정보</h4>
                             <a href="#">
-                                <img src="./src/영화목록페이지/포스터_눈떠보니자바.png" alt="눈떠보니 코딩테스트 전날 with JAVA">
+                                <img src="./img/포스터_눈떠보니자바.png" alt="눈떠보니 코딩테스트 전날 with JAVA">
                             </a>
                             <strong>눈떠보니 코딩테스트 전날 with JAVA</strong>
                             <dl>
@@ -101,18 +82,18 @@
                                 </div>
                                 <div>
                                     <dt>평점</dt>
-                                    <dd><img class="star" src="./src/별점이미지.png" alt=""> 8.25 </dd>
+                                    <dd><img class="star" src="./img/별점이미지.png" alt=""> 8.25 </dd>
                                 </div>
                             </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h4 class="sr-only">영화 상세 정보</h4>
                         <a href="#">
-                            <img src="./src/영화목록페이지/포스터_부트캠프.jpg" alt="파이썬 부트캠프">
+                            <img src="./img/포스터_부트캠프.jpg" alt="파이썬 부트캠프">
                         </a>
                         <strong>파이썬 부트캠프</strong>
                         <dl>
@@ -130,18 +111,18 @@
                             </div>
                             <div>
                                 <dt>평점</dt>
-                                <dd><img class="star" src="./src/별점이미지.png" alt=""> 8.77</dd>
+                                <dd><img class="star" src="./img/별점이미지.png" alt=""> 8.77</dd>
                             </div>
                         </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h4 class="sr-only">영화 상세 정뵤</h4>
                             <a href="#">
-                            <img src="./src/영화목록페이지/포스터_파이큐티.png" alt="파이큐티의 사랑">
+                            <img src="./img/포스터_파이큐티.png" alt="파이큐티의 사랑">
                             </a>
                             <strong>파이큐티의 사랑</strong>
                             <dl>
@@ -159,18 +140,18 @@
                                 </div>
                                 <div>
                                     <dt>평점</dt>
-                                    <dd><img class="star" src="./src/별점이미지.png" alt=""> 8.81</dd>
+                                    <dd><img class="star" src="./img/별점이미지.png" alt=""> 8.81</dd>
                                 </div>
                             </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h4 class="sr-only">영화 상세 정보</h4>
                             <a href="">
-                                <img src="./src/영화목록페이지/포스터_앤진액스.png" alt="NGINX의 춤">
+                                <img src="./img/포스터_앤진액스.png" alt="NGINX의 춤">
                             </a>
                             <strong>NGINX의 춤</strong>
                             <dl>
@@ -188,18 +169,18 @@
                                 </div>
                                 <div>
                                     <dt>평점</dt>
-                                    <dd><img class="star" src="./src/별점이미지.png" alt=""> 9.88</dd>
+                                    <dd><img class="star" src="./img/별점이미지.png" alt=""> 9.88</dd>
                                 </div>
                             </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h4 class="sr-only">영화 상세 정보</h4>
                             <a href="#">
-                                <img src="./src/영화목록페이지/포스터_어쩌다밋업.png" alt="어쩌다 밋업">
+                                <img src="./img/포스터_어쩌다밋업.png" alt="어쩌다 밋업">
                             </a>
                             <strong>어쩌다 밋업</strong>
                             <dl>
@@ -217,18 +198,18 @@
                                 </div>
                                 <div>
                                     <dt>평점</dt>
-                                    <dd><img class="star" src="./src/별점이미지.png" alt=""> 9.25</dd>
+                                    <dd><img class="star" src="./img/별점이미지.png" alt=""> 9.25</dd>
                                 </div>
                             </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h4>파이게임 어드벤쳐</h4>
                             <a href="#">
-                                <img src="./src/영화목록페이지/포스터_파이게임.jpg" alt="파이게임 어드벤처">
+                                <img src="./img/포스터_파이게임.jpg" alt="파이게임 어드벤처">
                             </a>
                             <strong>파이게임 어드벤쳐</strong>
                             <dl>
@@ -246,18 +227,18 @@
                                 </div>
                                 <div>
                                     <dt>평점</dt>
-                                    <dd><img class="star" src="./src/별점이미지.png" alt=""> 8.56</dd>
+                                    <dd><img class="star" src="./img/별점이미지.png" alt=""> 8.56</dd>
                                 </div>
                             </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
                 <li>
                     <article>
                         <h4>MBTI는 내 운명</h4>
                         <a href="#">
-                            <img src="./src/영화목록페이지/포스터_위니브월드.png" alt="MBTI는 내 운명">
+                            <img src="./img/포스터_MBIT.png" alt="MBTI는 내 운명">
                         </a>
                         <strong>MBTI는 내 운명</strong>
                         <dl>
@@ -275,45 +256,48 @@
                             </div>
                             <div>
                                 <dt>평점</dt>
-                                <dd><img class="star" src="./src/별점이미지.png" alt=""> 9.02</dd>
+                                <dd><img class="star" src="./img/별점이미지.png" alt=""> 9.02</dd>
                             </div>
                         </dl>
                         <a href="#">예매하기</a>
-                        <a href="#"><img class="video" src="./src/영화목록페이지/아이콘_재생.png" alt="">재생하기</a>
+                        <a href="#"><img class="video" src="./img/아이콘_재생.png" alt="">예고편</a>
                     </article>
                 </li>
             </ul>
         </section>
-        <footer>
-            <section>
-                <h2 class="sr-only">기업정보</h2>
-                <strong>Jungle Cinema </strong>
-                <dl>
-                    <dt class="sr-only">기업명</dt>
-                    <dd>(주)정글 시네마</dd>
-                    <dt>대표</dt>
-                    <dd>라이언</dd>
-                    <dt>사업자 번호</dt>
-                    <dd>000-0000-0000</dd>
-                    <dd>광고 영화 및 비디오물 제작업</dd>
-                    <dt>주소</dt>
-                    <dd>서울특별시</dd>
-                </dl>
-                <h3 class="sr-only">정글시네마 SNS</h3>
-                <ul>
-                    <li>
-                        <a href="#"><img class="sns" src="./src/SNS아이콘/twitter.png" alt="twitter"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="sns" src="./src/SNS아이콘/instagram.png" alt="instagram"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img class="sns" src="./src/SNS아이콘/facebook.png" alt="facebook"></a>
-                    </li>
-                </ul>
-                <p>The Jungle</p>
-            </section>
-        </footer>
     </main>
+</div>
+    <footer>
+        <section class="info">
+            <h2 class="sr-only">기업정보</h2>
+            <strong>Jungle Cinema </strong>
+            <dl>
+                <dt class="sr-only">기업명</dt>
+                <dd>(주)정글 시네마</dd>
+                <dt>대표</dt>
+                <dd>라이언</dd>
+                <dt>사업자 번호</dt>
+                <dd>000-0000-0000</dd>
+                <dd>광고 영화 및 비디오물 제작업</dd>
+                <dt>주소</dt>
+                <dd>서울특별시</dd>
+            </dl>
+        </section>
+        <section class="sns">
+            <h3 class="sr-only">정글시네마 SNS</h3>
+            <ul>
+                <li>
+                    <a href="#"><img class="sns" src="./img/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sns" src="./img/instagram.png" alt="instagram"></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sns" src="./img/facebook.png" alt="facebook"></a>
+                </li>
+            </ul>
+            <p>ⓒ The Jungle</p>
+        </section>
+    </footer>
 </body>
 </html>
